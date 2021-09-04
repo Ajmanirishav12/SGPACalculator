@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/skyblue"
+        android:text="Enter Marks           Credit"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txt1"
+         />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/et1"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/et2"
+        />
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/et3"
+        />
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/et4"
+        />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et6"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/et8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et7"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        />
+
+
+
+    <EditText
+        android:id="@+id/c1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/et1"
+        android:layout_marginTop="100dp"
+        android:hint="Enter Credit" />
+
+    <EditText
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/et2"
+        android:layout_marginTop="170dp"
+        android:hint="Enter Credit" />
+
+    <EditText
+        android:id="@+id/c3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/et3"
+        android:layout_marginTop="230dp"
+        android:hint="Enter Credit" />
+
+    <EditText
+        android:id="@+id/c4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/et4"
+        android:layout_marginTop="290dp"
+        android:hint="Enter Credit" />
+
+    <EditText
+        android:id="@+id/c5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/et5"
+        android:layout_marginTop="360dp"
+        android:hint="Enter Credit" />
+
+    <EditText
+        android:id="@+id/c6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/et6"
+        android:layout_marginTop="430dp"
+        android:hint="Enter Credit" />
+   <EditText
+       android:id="@+id/c7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="number"
+       android:layout_toRightOf="@+id/et7"
+       android:layout_marginTop="480dp"
+       android:hint="Enter Credit"
+       ></EditText>
+
+    <EditText
+        android:id="@+id/c8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/et8"
+        android:layout_marginTop="550dp"
+        android:hint="Enter Credit"
+        ></EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/bckgrnd"
+        android:gravity="center"
+        android:onClick="calc"
+        android:text="CALCULATE" />
+
+
+</RelativeLayout>
