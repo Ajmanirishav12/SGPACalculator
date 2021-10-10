@@ -85,10 +85,12 @@ public class MainActivity extends AppCompatActivity
         marks = marks + temp_cre;
         double Sgpa = (double) ((double) marks / (double) tot_crr);
         if (tot_crr != 0)
-            Toast.makeText(MainActivity.this, "SGPA is =" + (String.format("%.2f", Sgpa)), Toast.LENGTH_LONG).show();
-        else
-        {
-            Toast.makeText(MainActivity.this, "SGPA is = NULL",Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "SGPA is issssss  =" + (String.format("%.2f", Sgpa)), Toast.LENGTH_LONG).show();
+
+
+         else
+         {
+            Toast.makeText(MainActivity.this, "SGPA is   NULL",Toast.LENGTH_LONG).show();
         }
         }
     public String finder(int num)
